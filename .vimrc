@@ -41,6 +41,9 @@ filetype plugin indent on
 " Pick a leader key currently , remap as you want
 let mapleader = ","
 
+" turn off ycm_show_diagnostics_ui
+let g:ycm_show_diagnostics_ui = 0 
+
 " Security
 set modelines=0
 
